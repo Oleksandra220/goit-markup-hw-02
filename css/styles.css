@@ -1,69 +1,84 @@
-/* NAV */
-.nav-link {
-  color: #2e2f42;
-  font-weight: 500;
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* LIST RESET */
+ul {
+  list-style: none;
+}
+
+/* INTERACTIONS */
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+}
+
+/* LOGO */
+.logo {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-/* CONTACTS */
-.contacts-link {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.logo {
+  color: #4d5ae5;
 }
 
-/* FEATURES */
-.features-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/* TEAM */
-.team-name {
+.logo-part {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
 }
 
-.team-role {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
-/* PORTFOLIO */
-.portfolio-title {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
 }
 
-.portfolio-text {
-  color: #434455;
-  font-size: 16px;
+.footer-text {
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* SECTION TITLES */
-.section-title {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+/* ADDRESS FIX */
+.contacts {
+  font-style: normal;
 }
